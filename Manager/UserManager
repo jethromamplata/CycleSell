@@ -8,8 +8,8 @@ namespace Manager.UserManager
         //Temporary data for testing before database connections
         private readonly List<User> _user = new List<User>
         {
-            new User { Id = 1, UserName = "Janver", Age = 18, Email = "Janver@yahoo.com" },
-            new User { Id = 2, UserName = "Bryan", Age = 19, Email = "Bryan@yahoo.com" }
+            new User { Id = 1, UserName = "Jeth", Age = 19, Email = "Jeth@gmail.com" },
+            new User { Id = 2, UserName = "Mamplata", Age = 19, Email = "Mamplata43@gmail.com" }
         };
         //Function that displays all students within the list
         public IEnumerable<User> GetAllUser()
